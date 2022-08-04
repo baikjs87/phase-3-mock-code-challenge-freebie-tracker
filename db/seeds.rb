@@ -1,3 +1,7 @@
+Company.delete_all
+Dev.delete_all
+Freebie.delete_all
+
 puts "Creating companies..."
 Company.create(name: "Google", founding_year: 1998)
 Company.create(name: "Facebook", founding_year: 2004)
@@ -17,5 +21,13 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+Freebie.create(item_name: "Water Bottle", value: 25)
+Freebie.create(item_name: "Sticker", value: 1)
+Freebie.create(item_name: "Pen", value: 5)
+Freebie.create(item_name: "Bag", value: 20)
+Freebie.create(item_name: "Toy", value: 20)
+Freebie.create(item_name: "Pin", value: 5)
+Freebie.create(item_name: "Mouse Pad", value: 18)
+Freebie.create(item_name: "Key Chain", value: 10)
 
 puts "Seeding done!"
