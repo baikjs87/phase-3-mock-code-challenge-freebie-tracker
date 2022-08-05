@@ -21,13 +21,13 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
-Freebie.create(item_name: "Water Bottle", value: 25)
-Freebie.create(item_name: "Sticker", value: 1)
-Freebie.create(item_name: "Pen", value: 5)
-Freebie.create(item_name: "Bag", value: 20)
-Freebie.create(item_name: "Toy", value: 20)
-Freebie.create(item_name: "Pin", value: 5)
-Freebie.create(item_name: "Mouse Pad", value: 18)
-Freebie.create(item_name: "Key Chain", value: 10)
+Freebie.create(item_name: "Water Bottle", value: 25, dev_id: 1, company_id:3)
+Freebie.create(item_name: "Sticker", value: 1, dev_id: 2, company_id:2)
+Freebie.create(item_name: "Pen", value: 5, dev_id:3, company_id:1)
+Freebie.create(item_name: "Bag", value: 20, dev_id:4, company_id:4)
+Freebie.create(item_name: "Toy", value: 20, dev_id:1, company_id:4)
+Freebie.create(item_name: "Pin", value: 5, dev_id:2, company_id:3)
+Freebie.create(item_name: "Mouse Pad", value: 18, dev_id:3, company_id:2)
+Freebie.create(item_name: "Key Chain", value: 10, dev_id:4, company_id:1)
 
 puts "Seeding done!"
